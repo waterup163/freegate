@@ -42,6 +42,8 @@ VPNGATE_MIRROR = os.environ.get(
     "https://raw.githubusercontent.com/GeorgeXie2333/vpngate-list-mirror/refs/heads/main/data/servers.json",
     "https://raw.githubusercontent.com/pvKaLeed/thock-vpngate/refs/heads/main/data/servers.json",
     "https://raw.githubusercontent.com/badlucknoman/vpngate-api/refs/heads/main/servers.json",
+    "https://raw.githubusercontent.com/badlucknoman/vpngate-api/refs/heads/main/servers.json",
+    "https://raw.githubusercontent.com/G1010yzd10/vpngate-monitor/refs/heads/main/data/latest.json",
 )
 WORKER_CHECK_URL = os.environ.get("CHECK_WORKER", "https://check.freea.eu.cc/check?sstp=vpn:vpn@")
 CONCURRENCY = max(1, int(os.environ.get("CHECK_CONCURRENCY", "32")))
