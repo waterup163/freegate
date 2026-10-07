@@ -69,4 +69,4 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Show site URL
-        run: 'echo "site: https://waterup163.github.io/gate/ (deploy outcome: ${{ steps.deployment.outcome }})"'
+        run: 'echo "site: https://waterup163.github.io/freegate/ (deploy outcome: ${{ steps.deployment.outcome }})"'
