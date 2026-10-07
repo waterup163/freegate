@@ -39,6 +39,9 @@ VPNGATE_API = os.environ.get("VPNGATE_API", "http://www.vpngate.net/api/iphone/"
 VPNGATE_MIRROR = os.environ.get(
     "VPNGATE_MIRROR",
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json",
+    "https://raw.githubusercontent.com/GeorgeXie2333/vpngate-list-mirror/refs/heads/main/data/servers.json",
+    "https://raw.githubusercontent.com/pvKaLeed/thock-vpngate/refs/heads/main/data/servers.json",
+    "https://raw.githubusercontent.com/badlucknoman/vpngate-api/refs/heads/main/servers.json",
 )
 WORKER_CHECK_URL = os.environ.get("CHECK_WORKER", "https://check.freea.eu.cc/check?sstp=vpn:vpn@")
 CONCURRENCY = max(1, int(os.environ.get("CHECK_CONCURRENCY", "32")))
