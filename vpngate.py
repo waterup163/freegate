@@ -40,8 +40,6 @@ VPNGATE_MIRROR = os.environ.get(
     "VPNGATE_MIRROR",
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json",
     "https://raw.githubusercontent.com/GeorgeXie2333/vpngate-list-mirror/refs/heads/main/data/servers.json",
-    "https://raw.githubusercontent.com/pvKaLeed/thock-vpngate/refs/heads/main/data/servers.json",
-    "https://raw.githubusercontent.com/badlucknoman/vpngate-api/refs/heads/main/servers.json",
     "https://raw.githubusercontent.com/badlucknoman/vpngate-api/refs/heads/main/servers.json",
     "https://raw.githubusercontent.com/G1010yzd10/vpngate-monitor/refs/heads/main/data/latest.json",
 )
